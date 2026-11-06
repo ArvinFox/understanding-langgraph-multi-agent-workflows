@@ -1,0 +1,13 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Secret environment variables (API keys)
+.env
+
+# Python byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
