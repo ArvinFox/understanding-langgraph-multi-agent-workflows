@@ -112,7 +112,7 @@ def reviewer_agent(state: TeamState) -> dict:
             "You are a Strict Principal Engineer Reviewer. "
             "Check the draft against TWO mandatory rules:\n"
             "1. It must mention AcmeCorp's 10,000 requests/sec and PostgreSQL 16 standards.\n"
-            "2. 2. It MUST include a short ```python code block (written in Python, NOT protobuf) showing a sample service call.\n"
+            "2. It MUST include a short ```python code block (written in Python, NOT protobuf) showing a sample service call.\n"
             "If EITHER rule is missing, set approved=False and tell the writer exactly what to add!"
         )),
         HumanMessage(content=f"Here is the draft to review:\n\n{draft}")

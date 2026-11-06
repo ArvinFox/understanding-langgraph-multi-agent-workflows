@@ -22,6 +22,7 @@ flowchart LR
 | `milestone2_graph.py` | **Role-Based AI Agents**: Connecting `ChatGoogleGenerativeAI` with role-specific `SystemMessage` and dynamic `HumanMessage` context. |
 | `milestone3_graph.py` | **Tool Calling (`@tool` + `bind_tools`)**: Giving a `researcher_agent` access to internal company standards before handing off facts to the Drafter. |
 | `milestone4_graph.py` | **Self-Correction Loops & Structured Outputs**: Using `Pydantic` (`with_structured_output`) for deterministic Reviewer decisions, `add_conditional_edges` for routing, and `revision_count` guardrails to prevent infinite loops. |
+| `milestone5_production.py` | **Production Streaming & State Checkpointing**: Using `MemorySaver` (`thread_id`) for state persistence and `graph.stream(..., stream_mode="updates")` for real-time agent event streaming. |
 
 ## Quickstart
 
